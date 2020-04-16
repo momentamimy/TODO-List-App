@@ -7,25 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF86EEF923A98C33006E4458 /* priority.png in Resources */ = {isa = PBXBuildFile; fileRef = BF86EEF823A98C32006E4458 /* priority.png */; };
 		BF89132223A5332000AA2082 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF89132123A5332000AA2082 /* AppDelegate.m */; };
-		BF89132523A5332000AA2082 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF89132423A5332000AA2082 /* ViewController.m */; };
 		BF89132823A5332000AA2082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF89132623A5332000AA2082 /* Main.storyboard */; };
 		BF89132A23A5332200AA2082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF89132923A5332200AA2082 /* Assets.xcassets */; };
 		BF89132D23A5332200AA2082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF89132B23A5332200AA2082 /* LaunchScreen.storyboard */; };
 		BF89133023A5332200AA2082 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF89132F23A5332200AA2082 /* main.m */; };
+		BF89133F23A575AB00AA2082 /* low.png in Resources */ = {isa = PBXBuildFile; fileRef = BF89133C23A575AB00AA2082 /* low.png */; };
+		BF89134023A575AB00AA2082 /* medium.png in Resources */ = {isa = PBXBuildFile; fileRef = BF89133D23A575AB00AA2082 /* medium.png */; };
+		BF89134123A575AB00AA2082 /* high.png in Resources */ = {isa = PBXBuildFile; fileRef = BF89133E23A575AB00AA2082 /* high.png */; };
+		BF89134423A57A5200AA2082 /* TodoView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF89134323A57A5200AA2082 /* TodoView.m */; };
+		BF89134723A57A9500AA2082 /* progress.m in Sources */ = {isa = PBXBuildFile; fileRef = BF89134623A57A9500AA2082 /* progress.m */; };
+		BF89134A23A57AB600AA2082 /* DoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF89134923A57AB600AA2082 /* DoneView.m */; };
+		BF89134D23A57CA400AA2082 /* AddTaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF89134C23A57CA400AA2082 /* AddTaskView.m */; };
+		BF89135023A58DBA00AA2082 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = BF89134F23A58DB900AA2082 /* Task.m */; };
+		BF89135323A666F600AA2082 /* TaskDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF89135223A666F600AA2082 /* TaskDetailsView.m */; };
+		BFB6462E23A80F2700589C9E /* todo_list.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB6462B23A80F2600589C9E /* todo_list.png */; };
+		BFB6462F23A80F2700589C9E /* done_list.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB6462C23A80F2700589C9E /* done_list.png */; };
+		BFB6463023A80F2700589C9E /* progress_list.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB6462D23A80F2700589C9E /* progress_list.png */; };
+		BFB6463323A8124F00589C9E /* Save_Retrieve_Class.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB6463223A8124F00589C9E /* Save_Retrieve_Class.m */; };
+		BFBA66CD23A8FC6C007E064F /* PriorityView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBA66CC23A8FC6C007E064F /* PriorityView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF86EEF823A98C32006E4458 /* priority.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = priority.png; path = "../../../../../Volumes/VMware Shared Folders/Shared/priority.png"; sourceTree = "<group>"; };
 		BF89131D23A5332000AA2082 /* TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF89132023A5332000AA2082 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF89132123A5332000AA2082 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF89132323A5332000AA2082 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF89132423A5332000AA2082 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BF89132723A5332000AA2082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF89132923A5332200AA2082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF89132C23A5332200AA2082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF89132E23A5332200AA2082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF89132F23A5332200AA2082 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF89133C23A575AB00AA2082 /* low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = low.png; path = "../../../../../Volumes/VMware Shared Folders/Shared/low.png"; sourceTree = "<group>"; };
+		BF89133D23A575AB00AA2082 /* medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medium.png; path = "../../../../../Volumes/VMware Shared Folders/Shared/medium.png"; sourceTree = "<group>"; };
+		BF89133E23A575AB00AA2082 /* high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = high.png; path = "../../../../../Volumes/VMware Shared Folders/Shared/high.png"; sourceTree = "<group>"; };
+		BF89134223A57A5200AA2082 /* TodoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoView.h; sourceTree = "<group>"; };
+		BF89134323A57A5200AA2082 /* TodoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoView.m; sourceTree = "<group>"; };
+		BF89134523A57A9500AA2082 /* progress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = progress.h; sourceTree = "<group>"; };
+		BF89134623A57A9500AA2082 /* progress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = progress.m; sourceTree = "<group>"; };
+		BF89134823A57AB600AA2082 /* DoneView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneView.h; sourceTree = "<group>"; };
+		BF89134923A57AB600AA2082 /* DoneView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneView.m; sourceTree = "<group>"; };
+		BF89134B23A57CA400AA2082 /* AddTaskView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTaskView.h; sourceTree = "<group>"; };
+		BF89134C23A57CA400AA2082 /* AddTaskView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTaskView.m; sourceTree = "<group>"; };
+		BF89134E23A58DB900AA2082 /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		BF89134F23A58DB900AA2082 /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		BF89135123A666F600AA2082 /* TaskDetailsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskDetailsView.h; sourceTree = "<group>"; };
+		BF89135223A666F600AA2082 /* TaskDetailsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskDetailsView.m; sourceTree = "<group>"; };
+		BFB6462B23A80F2600589C9E /* todo_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = todo_list.png; path = "../../../../../Volumes/VMware Shared Folders/Shared/todo_list.png"; sourceTree = "<group>"; };
+		BFB6462C23A80F2700589C9E /* done_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = done_list.png; path = "../../../../../Volumes/VMware Shared Folders/Shared/done_list.png"; sourceTree = "<group>"; };
+		BFB6462D23A80F2700589C9E /* progress_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = progress_list.png; path = "../../../../../Volumes/VMware Shared Folders/Shared/progress_list.png"; sourceTree = "<group>"; };
+		BFB6463123A8124F00589C9E /* Save_Retrieve_Class.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Save_Retrieve_Class.h; sourceTree = "<group>"; };
+		BFB6463223A8124F00589C9E /* Save_Retrieve_Class.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Save_Retrieve_Class.m; sourceTree = "<group>"; };
+		BFBA66CB23A8FC6C007E064F /* PriorityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityView.h; sourceTree = "<group>"; };
+		BFBA66CC23A8FC6C007E064F /* PriorityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriorityView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +93,36 @@
 		BF89131F23A5332000AA2082 /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				BF86EEF823A98C32006E4458 /* priority.png */,
+				BFB6462C23A80F2700589C9E /* done_list.png */,
+				BFB6462D23A80F2700589C9E /* progress_list.png */,
+				BFB6462B23A80F2600589C9E /* todo_list.png */,
+				BF89133E23A575AB00AA2082 /* high.png */,
+				BF89133C23A575AB00AA2082 /* low.png */,
+				BF89133D23A575AB00AA2082 /* medium.png */,
 				BF89132023A5332000AA2082 /* AppDelegate.h */,
 				BF89132123A5332000AA2082 /* AppDelegate.m */,
-				BF89132323A5332000AA2082 /* ViewController.h */,
-				BF89132423A5332000AA2082 /* ViewController.m */,
 				BF89132623A5332000AA2082 /* Main.storyboard */,
 				BF89132923A5332200AA2082 /* Assets.xcassets */,
 				BF89132B23A5332200AA2082 /* LaunchScreen.storyboard */,
 				BF89132E23A5332200AA2082 /* Info.plist */,
 				BF89132F23A5332200AA2082 /* main.m */,
+				BF89134223A57A5200AA2082 /* TodoView.h */,
+				BF89134323A57A5200AA2082 /* TodoView.m */,
+				BF89134523A57A9500AA2082 /* progress.h */,
+				BF89134623A57A9500AA2082 /* progress.m */,
+				BF89134823A57AB600AA2082 /* DoneView.h */,
+				BF89134923A57AB600AA2082 /* DoneView.m */,
+				BFBA66CB23A8FC6C007E064F /* PriorityView.h */,
+				BFBA66CC23A8FC6C007E064F /* PriorityView.m */,
+				BF89134B23A57CA400AA2082 /* AddTaskView.h */,
+				BF89134C23A57CA400AA2082 /* AddTaskView.m */,
+				BF89134E23A58DB900AA2082 /* Task.h */,
+				BF89134F23A58DB900AA2082 /* Task.m */,
+				BF89135123A666F600AA2082 /* TaskDetailsView.h */,
+				BF89135223A666F600AA2082 /* TaskDetailsView.m */,
+				BFB6463123A8124F00589C9E /* Save_Retrieve_Class.h */,
+				BFB6463223A8124F00589C9E /* Save_Retrieve_Class.m */,
 			);
 			path = TodoApp;
 			sourceTree = "<group>";
@@ -128,9 +184,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB6462E23A80F2700589C9E /* todo_list.png in Resources */,
+				BF86EEF923A98C33006E4458 /* priority.png in Resources */,
+				BFB6462F23A80F2700589C9E /* done_list.png in Resources */,
+				BF89133F23A575AB00AA2082 /* low.png in Resources */,
+				BF89134023A575AB00AA2082 /* medium.png in Resources */,
 				BF89132D23A5332200AA2082 /* LaunchScreen.storyboard in Resources */,
 				BF89132A23A5332200AA2082 /* Assets.xcassets in Resources */,
+				BFB6463023A80F2700589C9E /* progress_list.png in Resources */,
 				BF89132823A5332000AA2082 /* Main.storyboard in Resources */,
+				BF89134123A575AB00AA2082 /* high.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF89132523A5332000AA2082 /* ViewController.m in Sources */,
+				BF89135323A666F600AA2082 /* TaskDetailsView.m in Sources */,
+				BF89135023A58DBA00AA2082 /* Task.m in Sources */,
+				BF89134A23A57AB600AA2082 /* DoneView.m in Sources */,
 				BF89133023A5332200AA2082 /* main.m in Sources */,
+				BF89134D23A57CA400AA2082 /* AddTaskView.m in Sources */,
+				BF89134723A57A9500AA2082 /* progress.m in Sources */,
+				BFB6463323A8124F00589C9E /* Save_Retrieve_Class.m in Sources */,
+				BF89134423A57A5200AA2082 /* TodoView.m in Sources */,
+				BFBA66CD23A8FC6C007E064F /* PriorityView.m in Sources */,
 				BF89132223A5332000AA2082 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

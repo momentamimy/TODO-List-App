@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddTaskView.h
 //  TodoApp
 //
 //  Created by Mostafa Samir on 12/14/19.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface AddTaskView : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
